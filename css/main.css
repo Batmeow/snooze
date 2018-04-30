@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 30px;
+  margin: 20px;
   position: absolute;
   height: calc(100% - 120px);
   width: calc(100% - 120px);
@@ -236,4 +236,53 @@ sup {
   width: 100%;
   border-spacing: 0;
   border-collapse: separate;
+}
+
+/* Custom */
+
+.module.currentweather.currentweather {
+   background: rgb(0,212,255);
+   background: -webkit-linear-gradient(110deg, rgba(0,212,255,1) 0%, rgba(0,75,251,1) 100%);
+   background: -o-linear-gradient(110deg, rgba(0,212,255,1) 0%, rgba(0,75,251,1) 100%);
+   background: linear-gradient(200deg, rgba(0,212,255,1) 0%, rgba(0,75,251,1) 100%);
+
+   padding: 12px;
+   margin-bottom: 12px;
+
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;
+}
+
+.module.currentweather.currentweather .module-content div .normal.medium:first-of-type {
+   padding: 8px;
+
+   background: rgba(0,0,0, 0.1);
+   color: #FFF;
+   margin-bottom: 8px;
+
+   font-size: 1.5rem;
+   text-align: center;
+
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;
+}
+
+.module.currentweather.currentweather .module-content div .dimmed {
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.module.currentweather.currentweather .module-content div .normal.medium:first-of-type span.wi {
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.module.currentweather.currentweather .module-content div .large.light {
+   text-align: center;
+   font-size: 62px;
+   line-height: 62px;
+}
+
+.module.currentweather.currentweather .module-content div .large.light span.wi {
+   color: rgba(255, 255, 255, 0.6);
 }
