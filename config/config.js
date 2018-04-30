@@ -37,19 +37,19 @@ var config = {
 			module: "clock",
 			position: "top_left"
 		},
-		{
-			module: "calendar",
-			header: "US Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						symbol: "calendar-check-o ",
-						url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
-					}
-				]
-			}
-		},
+		// {
+		// 	module: "calendar",
+		// 	header: "US Holidays",
+		// 	position: "top_left",
+		// 	config: {
+		// 		calendars: [
+		// 			{
+		// 				symbol: "calendar-check-o ",
+		// 				url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+		// 			}
+		// 		]
+		// 	}
+		// },
 		{
 			module: "currentweather",
 			position: "top_right",
@@ -69,20 +69,20 @@ var config = {
 				appid: "867e131c071180125bd88b996c21d001"
 			}
 		},
-		{
-			module: "newsfeed",
-			position: "bottom_bar",
-			config: {
-				feeds: [
-					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true
-			}
-		},
+		// {
+		// 	module: "newsfeed",
+		// 	position: "bottom_bar",
+		// 	config: {
+		// 		feeds: [
+		// 			{
+		// 				title: "New York Times",
+		// 				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+		// 			}
+		// 		],
+		// 		showSourceTitle: true,
+		// 		showPublishDate: true
+		// 	}
+		// },
 	]
 
 };
