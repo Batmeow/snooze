@@ -204,7 +204,7 @@ Module.register("weatherforecast",{
 	// Override getHeader method.
 	getHeader: function() {
 		if (this.config.appendLocationNameToHeader) {
-			return this.data.header + " " + this.fetchedLocationName;
+			return "Forecast: " + this.fetchedLocationName;
 		}
 
 		return this.data.header;
