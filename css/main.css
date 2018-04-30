@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 60px;
+  margin: 30px;
   position: absolute;
   height: calc(100% - 120px);
   width: calc(100% - 120px);
