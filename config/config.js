@@ -54,21 +54,21 @@ var config = {
 			module: "currentweather",
 			position: "top_right",
 			config: {
-				location: "New York",
+				location: "Los Angeles",
 				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "867e131c071180125bd88b996c21d001"
 			}
 		},
-		{
-			module: "weatherforecast",
-			position: "top_right",
-			header: "Weather Forecast",
-			config: {
-				location: "New York",
-				locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "867e131c071180125bd88b996c21d001"
-			}
-		},
+		// {
+		// 	module: "weatherforecast",
+		// 	position: "top_right",
+		// 	header: "Weather Forecast",
+		// 	config: {
+		// 		location: "New York",
+		// 		locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
+		// 		appid: "867e131c071180125bd88b996c21d001"
+		// 	}
+		// },
 		// {
 		// 	module: "newsfeed",
 		// 	position: "bottom_bar",
