@@ -23,7 +23,7 @@ var config = {
 
 	language: "en",
 	timeFormat: 24,
-	units: "metric",
+	units: "imperial",
 
 	modules: [
 		{
@@ -51,16 +51,12 @@ var config = {
 			}
 		},
 		{
-			module: "compliments",
-			position: "lower_third"
-		},
-		{
 			module: "currentweather",
 			position: "top_right",
 			config: {
 				location: "New York",
 				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				appid: "867e131c071180125bd88b996c21d001"
 			}
 		},
 		{
@@ -70,7 +66,7 @@ var config = {
 			config: {
 				location: "New York",
 				locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				appid: "867e131c071180125bd88b996c21d001"
 			}
 		},
 		{
