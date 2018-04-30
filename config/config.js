@@ -52,7 +52,7 @@ var config = {
 		// },
 		{
 			module: "currentweather",
-			position: "bottom_right",
+			position: "bottom_left",
 			config: {
 				location: "Los Angeles",
 				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
@@ -60,16 +60,17 @@ var config = {
 				showFeelsLike: false
 			}
 		},
-		// {
-		// 	module: "weatherforecast",
-		// 	position: "top_right",
-		// 	header: "Weather Forecast",
-		// 	config: {
-		// 		location: "New York",
-		// 		locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-		// 		appid: "867e131c071180125bd88b996c21d001"
-		// 	}
-		// },
+		{
+			module: "weatherforecast",
+			position: "bottom_right",
+			header: "Weather Forecast",
+			config: {
+				location: "Monterey,us",
+				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "867e131c071180125bd88b996c21d001",
+				maxNumberOfDays: 3
+			}
+		},
 		// {
 		// 	module: "newsfeed",
 		// 	position: "bottom_bar",
