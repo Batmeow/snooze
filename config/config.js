@@ -48,6 +48,7 @@ var config = {
 			config: {
 				alarms: [
 					{ time: "23:30", days: [1,3], title: "Class", message: "Time to head out!" }
+					{ time: "07:00", days: [1,2,3,4,5], title: "Work", message: "Don't be Late!" }
 				],
 				touch: true
 			}

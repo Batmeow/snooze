@@ -255,7 +255,7 @@ sup {
 }
 
 .module.currentweather.currentweather .module-content div .normal.medium:first-of-type {
-   padding: 5px 20px;
+   padding: 5px 18px;
 
    background: rgba(0,0,0, 0.1);
    color: #FFF;
@@ -278,7 +278,7 @@ sup {
 }
 
 .module.currentweather.currentweather .module-content div .normal.medium:first-of-type span:nth-child(4) {
-   margin-left: 10px;
+   margin-left: 8px;
 }
 
 .module.currentweather.currentweather .module-content div .large.light {
