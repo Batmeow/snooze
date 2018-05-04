@@ -14,7 +14,7 @@ var config = {
 	                      // - another specific IPv4/6 to listen on a specific interface
 	                      // - "", "0.0.0.0", "::" to listen on any interface
 	                      // Default, when address config is left out, is "localhost"
-	port: 8000,
+	port: 8080,
 	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", '192.168.1.0/24', "::ffff:192.168.1.0/24"], // Set [] to allow all IP addresses
 	                                                       // or add a specific IPv4 of 192.168.1.5 :
 	                                                       // ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.5"],
@@ -29,10 +29,10 @@ var config = {
 		{
 			module: "alert",
 		},
-		{
-			module: "updatenotification",
-			position: "top_right"
-		},
+		// {
+		// 	module: "updatenotification",
+		// 	position: "top_right"
+		// },
 		{
 			module: "clock",
 			position: "top_left",
@@ -82,7 +82,7 @@ var config = {
 			module: "currentweather",
 			position: "bottom_left",
 			config: {
-				location: "Los Angeles",
+				location: "Monterey,us",
 				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "867e131c071180125bd88b996c21d001",
 				showFeelsLike: false,
