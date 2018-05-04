@@ -51,6 +51,18 @@ var config = {
 		// 	}
 		// },
 		{
+			module: 'MMM-Carousel',
+			config: {
+				transitionInterval: 10000,
+				ignoreModules: ['clock'],
+				mode: 'slides',
+				slides: [
+					['currentweather', 'weatherforecast'],
+					['newsfeed']
+				]
+			}
+		},
+		{
 			module: "currentweather",
 			position: "bottom_left",
 			config: {
@@ -71,20 +83,20 @@ var config = {
 				maxNumberOfDays: 3
 			}
 		},
-		// {
-		// 	module: "newsfeed",
-		// 	position: "bottom_bar",
-		// 	config: {
-		// 		feeds: [
-		// 			{
-		// 				title: "New York Times",
-		// 				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-		// 			}
-		// 		],
-		// 		showSourceTitle: true,
-		// 		showPublishDate: true
-		// 	}
-		// },
+		{
+			module: "newsfeed",
+			position: "bottom_bar",
+			config: {
+				feeds: [
+					{
+						title: "New York Times",
+						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+					}
+				],
+				showSourceTitle: true,
+				showPublishDate: true
+			}
+		},
 	]
 
 };
