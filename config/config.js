@@ -36,7 +36,9 @@ var config = {
 		{
 			module: "clock",
 			position: "top_left",
-			timezone: 'America/Los_Angeles'
+			config: {
+				timezone: 'America/Los_Angeles'
+			},
 		},
 		// {
 		// 	module: "calendar",
