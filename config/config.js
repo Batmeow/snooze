@@ -39,6 +39,7 @@ var config = {
 			config: {
 				timezone: 'America/Los_Angeles',
 				timeFormat: '12',
+				showPeriod: false
 			},
 		},
 		// {
