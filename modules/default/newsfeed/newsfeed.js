@@ -113,7 +113,7 @@ Module.register("newsfeed",{
 					sourceAndTimestamp.innerHTML += moment(new Date(this.newsItems[this.activeItem].pubdate)).fromNow();
 				}
 				if (this.config.showSourceTitle && this.newsItems[this.activeItem].sourceTitle !== "" || this.config.showPublishDate) {
-					sourceAndTimestamp.innerHTML += ":";
+					sourceAndTimestamp.innerHTML += "";
 				}
 
 				wrapper.appendChild(sourceAndTimestamp);

@@ -369,8 +369,9 @@ sup {
 
    color: #000;
 
-   line-height: 18px;
+   line-height: 22px;
    font-size: 18px;
+   font-weight: bold;
 
    padding-top: 30px;
    text-align: left;
