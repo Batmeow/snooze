@@ -255,7 +255,7 @@ sup {
 }
 
 .module.currentweather.currentweather .module-content div .normal.medium:first-of-type {
-   padding: 5px 10px;
+   padding: 5px 15px;
 
    background: rgba(0,0,0, 0.1);
    color: #FFF;
@@ -279,13 +279,13 @@ sup {
 
 .module.currentweather.currentweather .module-content div .large.light {
    text-align: center;
-   font-size: 46px;
-   line-height: 46px;
+   font-size: 45px;
+   line-height: 45px;
 }
 
 .module.currentweather.currentweather .module-content div .large.light span.wi {
    color: rgba(255, 255, 255, 0.6);
-   line-height: 46px;
+   line-height: 45px;
 }
 
 .module.weatherforecast.weatherforecast {
