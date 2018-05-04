@@ -255,7 +255,7 @@ sup {
 }
 
 .module.currentweather.currentweather .module-content div .normal.medium:first-of-type {
-   padding: 5px 15px;
+   padding: 5px 20px;
 
    background: rgba(0,0,0, 0.1);
    color: #FFF;
@@ -333,7 +333,7 @@ sup {
 
 #module_2_clock .module-content .time {
    font-size: 85px;
-   margin-top: 10px;
+   margin-top: 20px;
 }
 
 .module.newsfeed.newsfeed {
