@@ -369,10 +369,14 @@ sup {
 
    color: #000;
 
+   line-height: 12px;
+
    padding-top: 20px;
    text-align: left;
    padding-left: 20px;
    padding-right: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 10px;
 
    border-radius: 5px;
 }
