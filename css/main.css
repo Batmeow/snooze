@@ -329,3 +329,8 @@ sup {
 .module.newsfeed.newsfeed .module-content .bright.medium.light {
    font-size: 16px;
 }
+
+#module_2_clock .module-content .time {
+   font-size: 80px;
+   margin-top: 4px;
+}

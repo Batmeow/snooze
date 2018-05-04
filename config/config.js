@@ -86,7 +86,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "bottom_center",
+			position: "bottom_bar",
 			config: {
 				feeds: [
 					{
