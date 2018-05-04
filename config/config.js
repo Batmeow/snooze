@@ -42,6 +42,15 @@ var config = {
 				showPeriod: false
 			},
 		},
+		{
+			module: 'MMM-AlarmClock',
+			position: 'top_right',
+			config: {
+				alarms: [
+					{time: "11:15", days: [1,2,3,4,5], title: "Alarm", message: "Time to head out!"},
+				],
+			}
+		},
 		// {
 		// 	module: "calendar",
 		// 	header: "US Holidays",
