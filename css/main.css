@@ -279,13 +279,13 @@ sup {
 
 .module.currentweather.currentweather .module-content div .large.light {
    text-align: center;
-   font-size: 44px;
-   line-height: 44px;
+   font-size: 42px;
+   line-height: 42px;
 }
 
 .module.currentweather.currentweather .module-content div .large.light span.wi {
    color: rgba(255, 255, 255, 0.6);
-   line-height: 44px;
+   line-height: 42px;
 }
 
 .module.weatherforecast.weatherforecast {
