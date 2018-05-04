@@ -47,7 +47,7 @@ var config = {
 			position: 'top_right',
 			config: {
 				alarms: [
-					{time: "11:15", days: [1,2,3,4,5], title: "Alarm", message: "Time to head out!"},
+					{time: "23:19", days: [1,2,3,4,5], title: "Alarm", message: "Time to head out!"},
 				],
 			}
 		},
@@ -68,7 +68,7 @@ var config = {
 			module: 'MMM-Carousel',
 			config: {
 				transitionInterval: 10000,
-				ignoreModules: ['clock'],
+				ignoreModules: ['clock', 'MMM-AlarmClock'],
 				mode: 'slides',
 				slides: [
 					['currentweather', 'weatherforecast'],
