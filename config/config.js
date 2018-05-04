@@ -69,7 +69,8 @@ var config = {
 				location: "Los Angeles",
 				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "867e131c071180125bd88b996c21d001",
-				showFeelsLike: false
+				showFeelsLike: false,
+				roundTemp: true
 			}
 		},
 		{
@@ -85,7 +86,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "bottom_bar",
+			position: "bottom_center",
 			config: {
 				feeds: [
 					{
@@ -94,7 +95,8 @@ var config = {
 					}
 				],
 				showSourceTitle: true,
-				showPublishDate: true
+				showPublishDate: true,
+				updateInterval: 30000
 			}
 		},
 	]
