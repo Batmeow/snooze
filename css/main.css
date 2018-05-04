@@ -247,7 +247,7 @@ sup {
    background: linear-gradient(200deg, rgba(0,212,255,1) 0%, rgba(0,75,251,1) 100%);
 
    padding: 12px;
-   margin-bottom: 12px;
+   margin-bottom: 0px;
 
    border-radius: 8px;
    -moz-border-radius: 8px;
@@ -295,7 +295,7 @@ sup {
 
    padding: 12px;
 
-   margin-bottom: 12px;
+   margin-bottom: 0px;
 
    border-radius: 8px;
    -moz-border-radius: 8px;
@@ -410,5 +410,9 @@ sup {
 }
 
 .module.MMM-AlarmClock .module-content .small {
-   font-size: 16px;
+   font-size: 15px;
+
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 5px;
+   padding: 5px 8px;
 }
