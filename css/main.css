@@ -332,7 +332,7 @@ sup {
 
 #module_2_clock .module-content .time {
    font-size: 85px;
-   margin-top: 4px;
+   margin-top: 6px;
 }
 
 .module.newsfeed.newsfeed {
@@ -369,7 +369,8 @@ sup {
 
    color: #000;
 
-   line-height: 14px;
+   line-height: 18px;
+   font-size: 18px;
 
    padding-top: 30px;
    text-align: left;
