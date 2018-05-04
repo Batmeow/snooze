@@ -47,7 +47,7 @@ var config = {
 			position: 'top_right',
 			config: {
 				alarms: [
-					{time: "23:19", days: [1,2,3,4,5], title: "Alarm", message: "Time to head out!"},
+					{ time: "23:22", days: [4], title: "Alarm", message: "Time to head out!" }
 				],
 			}
 		},
