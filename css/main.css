@@ -390,3 +390,25 @@ sup {
 
    border-radius: 0 0 5px 5px;
 }
+
+.module.MMM-AlarmClock .module-content header {
+   border-bottom: none;
+   text-align: right;
+}
+
+.module.MMM-AlarmClock .module-content header i {
+   margin: none;
+   padding: 10px;
+
+   border-radius: 30px;
+   color: #fff;
+   background: #e02f1f;
+}
+
+.module.MMM-AlarmClock .module-content header span {
+   display: none;
+}
+
+.module.MMM-AlarmClock .module-content .small {
+   font-size: 16px;
+}
