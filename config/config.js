@@ -86,7 +86,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "bottom_bar",
+			position: "bottom_left",
 			config: {
 				feeds: [
 					{
@@ -96,7 +96,10 @@ var config = {
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
-				updateInterval: 30000
+				updateInterval: 30000,
+				showDescription: true,
+				wrapDescription: true,
+				truncDescription: true
 			}
 		},
 	]
