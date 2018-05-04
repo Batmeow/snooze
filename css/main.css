@@ -336,7 +336,7 @@ sup {
 }
 
 .module.newsfeed.newsfeed {
-   
+
 }
 
 .module.newsfeed.newsfeed .module-content .light.small.dimmed {
@@ -372,8 +372,9 @@ sup {
    padding-top: 20px;
    text-align: left;
    padding-left: 20px;
+   padding-right: 20px;
 
-   border-radius: 5px 5px 0px 0px;
+   border-radius: 5px;
 }
 
 .module.newsfeed.newsfeed .module-content .small.light {

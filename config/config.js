@@ -97,9 +97,6 @@ var config = {
 				showSourceTitle: true,
 				showPublishDate: true,
 				updateInterval: 30000,
-				showDescription: true,
-				wrapDescription: true,
-				truncDescription: true
 			}
 		},
 	]
