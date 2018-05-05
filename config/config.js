@@ -15,7 +15,7 @@ var config = {
 	                      // - "", "0.0.0.0", "::" to listen on any interface
 	                      // Default, when address config is left out, is "localhost"
 	port: 8080,
-	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", '192.168.1.0/24', "::ffff:192.168.1.0/24"], // Set [] to allow all IP addresses
+	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", '192.168.1.0/24', "::ffff:192.168.1.0/24", '172.20.10.0/24', "::ffff:172.20.10.0/24"], // Set [] to allow all IP addresses
 	                                                       // or add a specific IPv4 of 192.168.1.5 :
 	                                                       // ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.5"],
 	                                                       // or IPv4 range of 192.168.3.0 --> 192.168.3.15 use CIDR format :
@@ -48,7 +48,7 @@ var config = {
 			config: {
 				alarms: [
 					{ time: "23:30", days: [1,3], title: "Class", message: "Time to head out!" },
-					{ time: "07:00", days: [1,2,3,4,5,6], title: "Work", message: "Don't be Late!" }
+					{ time: "07:00", days: [1,2,3,4,5], title: "Work", message: "Don't be Late!" }
 				],
 				touch: true
 			}
