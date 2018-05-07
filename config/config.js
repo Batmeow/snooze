@@ -75,9 +75,8 @@ var config = {
 				ignoreModules: ['clock', 'MMM-AlarmClock'],
 				mode: 'slides',
 				slides: [
-					['currentweather', 'weatherforecast'],
-					['MMM-Trello'],
-					['newsfeed'],
+					['currentweather', 'weatherforecast', 'newsfeed'],
+					['MMM-Trello']
 				]
 			}
 		},
@@ -105,7 +104,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "bottom_left",
+			position: "middle_center",
 			config: {
 				feeds: [
 					{
