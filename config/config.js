@@ -65,7 +65,8 @@ var config = {
 				// See 'Configuration options' for more information.
 				api_key: "a8a5c9cb047e3310896162ca3e639d1a",
 				token: "5ba002966acd7717f302e707341ed326fc592a5bf6fd8068eb946c532dd04992",
-				list: "5aefe2afbcb0d73d2cfbcabd"
+				list: "5aefe2afbcb0d73d2cfbcabd",
+				showDescription: false
 			}
     	},
 		{
