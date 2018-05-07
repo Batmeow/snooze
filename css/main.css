@@ -357,6 +357,8 @@ sup {
    float: left;
    background: #fff;
 
+   text-align: right;
+
    border-radius: 0 0 5px 5px;
 }
 

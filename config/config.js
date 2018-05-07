@@ -73,7 +73,7 @@ var config = {
 			module: 'MMM-Carousel',
 			config: {
 				transitionInterval: 10000,
-				ignoreModules: ['clock', 'MMM-AlarmClock'],
+				ignoreModules: ['clock', 'MMM-AlarmClock', 'MMM-Screencast'],
 				mode: 'slides',
 				slides: [
 					['currentweather', 'weatherforecast', 'newsfeed'],
@@ -116,6 +116,15 @@ var config = {
 				showSourceTitle: true,
 				showPublishDate: true,
 				updateInterval: 30000,
+			}
+		},
+		{
+			module: 'MMM-Screencast',
+			position: 'bottom_right', // This position is for a hidden <div /> and not the screencast window
+			config: {
+				position: 'top_right',
+				height: 0,
+				width: 0,
 			}
 		},
 		{
