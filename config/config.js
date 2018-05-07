@@ -120,9 +120,9 @@ var config = {
 		},
 		{
 			module: 'MMM-Screencast',
-			position: 'bottom_right', // This position is for a hidden <div /> and not the screencast window
+			position: 'top_right', // This position is for a hidden <div /> and not the screencast window
 			config: {
-				position: 'top_right',
+				position: 'bottomRight',
 				height: 0,
 				width: 0,
 			}
