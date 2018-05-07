@@ -421,3 +421,13 @@ sup {
    border-radius: 5px;
    padding: 5px 8px;
 }
+
+.module.MMM-Trello.MMM-Trello .medium.light.bright {
+   font-size: 16px;
+}
+
+.module.MMM-Trello.MMM-Trello .checklist-wrapper .small.light.checklist-item {
+   font-size: 14px;
+   float: left;
+   margin-left: 10px;
+}
